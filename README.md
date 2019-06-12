@@ -1,2 +1,0 @@
-# training
-Algorithm Random Trainging
