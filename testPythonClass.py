@@ -1,9 +1,13 @@
+ass = 0
+
 
 class fuck:
     flag = 0
 
     def add(self):
-        flag += 1
+        global ass
+        ass += 1
+        self.flag += 1
 
 
 if __name__ == "__main__":
@@ -11,18 +15,15 @@ if __name__ == "__main__":
     b = fuck()
     c = fuck()
 
-    print(a.flag)
-    print(b.flag)
-    print(c.flag)
+    print(ass)
+    print()
 
-    b.flag += 1
+    b.add()  # += 1
 
-    print(a.flag)
-    print(b.flag)
-    print(c.flag)
+    print(ass)
+    print()
 
     a.add()
 
-    print(a.flag)
-    print(b.flag)
-    print(c.flag)
+    print(ass)
+    print()
