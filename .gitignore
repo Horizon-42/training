@@ -1,3 +1,4 @@
 *.dSYM
 .vscode
+.vscode0
 *.bin
